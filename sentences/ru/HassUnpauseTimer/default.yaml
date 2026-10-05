@@ -1,6 +1,6 @@
 ---
 # HassUnpauseTimer - default
-# example: resume my timer
+# example: продолжи таймер
 
 language: "ru"
 data:
@@ -8,5 +8,12 @@ data:
       - "продолжи таймер"
       - "возобнови таймер"
       - "сними таймер с паузы"
-    example: "resume my timer"
+    example: "продолжи таймер"
     response: "default"
+
+  - sentences:
+      - "продолжи таймер"
+      - "сними таймер с паузы"
+    example: "продолжи таймер"
+    response: "default"
+    speech_to_phrase: true

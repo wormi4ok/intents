@@ -10,3 +10,10 @@ data:
       - "[при]останов(ить|и) (музыку|песню|трек|воспроизведение)"
     example: "Поставь трек на паузу"
     response: "default"
+
+  - sentences:
+      - "поставь [музыку] на паузу"
+      - "останови музыку"
+    example: "поставь на паузу"
+    response: "default"
+    speech_to_phrase: true

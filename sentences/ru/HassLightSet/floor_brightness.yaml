@@ -24,3 +24,10 @@ data:
     example: "50% яркости на первом этаже"
     inferred_domain: "light"
     response: "brightness"
+
+  - sentences:
+      - "установи яркость на {floor} этаже на {brightness} процентов"
+    example: "установи яркость на Первом этаже на 50 процентов"
+    inferred_domain: "light"
+    response: "brightness"
+    speech_to_phrase: true

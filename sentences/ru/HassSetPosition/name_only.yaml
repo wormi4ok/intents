@@ -21,3 +21,20 @@ data:
     name_domains:
       - "valve"
     response: "default"
+
+  - sentences:
+      - "установи {name} на {position} процентов"
+      - "(открой|закрой) {name} на {position} процентов"
+    example: "установи Штора в спальне на 50 процентов"
+    name_domains:
+      - "cover"
+    response: "default"
+    speech_to_phrase: true
+
+  - sentences:
+      - "(открой|закрой) {name} на {position} процентов"
+    example: "открой Вентиль на 75 процентов"
+    name_domains:
+      - "valve"
+    response: "default"
+    speech_to_phrase: true

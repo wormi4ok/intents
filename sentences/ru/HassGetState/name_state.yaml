@@ -45,3 +45,25 @@ data:
     name_domains:
       - "binary_sensor"
     response: "one_yesno"
+
+  - sentences:
+      - "{name} {on_off_states:state}"
+    example: "Лампа включена"
+    name_domains: "on_off"
+    response: "one_yesno"
+    speech_to_phrase: true
+
+  - sentences:
+      - "{name} {cover_states:state}"
+    example: "Штора открыта"
+    name_domains: "open_closed"
+    response: "one_yesno"
+    speech_to_phrase: true
+
+  - sentences:
+      - "{name} {lock_states:state}"
+    example: "Дверь заперта"
+    name_domains:
+      - "lock"
+    response: "one_yesno"
+    speech_to_phrase: true

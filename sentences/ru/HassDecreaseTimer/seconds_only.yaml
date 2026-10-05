@@ -8,3 +8,9 @@ data:
       - "<timer_decrease> таймер на {timer_seconds:seconds} секунд[у|ы]"
     example: "уменьши таймер на 15 секунд"
     response: "default"
+
+  - sentences:
+      - "уменьши таймер на {timer_seconds:seconds} секунд[у|ы]"
+    example: "уменьши таймер на 15 секунд"
+    response: "default"
+    speech_to_phrase: true

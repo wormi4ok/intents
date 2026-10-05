@@ -11,3 +11,10 @@ data:
       - "(сними|снять) [музыку|песню|трек] с паузы"
     example: "Продолжай воспроизведение"
     response: "default"
+
+  - sentences:
+      - "продолжи воспроизведение"
+      - "сними с паузы"
+    example: "продолжи воспроизведение"
+    response: "default"
+    speech_to_phrase: true

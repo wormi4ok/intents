@@ -14,3 +14,11 @@ data:
     example: "включи свет на первом этаже"
     inferred_domain: "light"
     response: "lights_floor"
+
+  - sentences:
+      - "включи свет на {floor}"
+      - "включи свет {floor}"
+    example: "включи свет на Первом этаже"
+    inferred_domain: "light"
+    response: "lights_floor"
+    speech_to_phrase: true

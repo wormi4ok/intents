@@ -8,3 +8,10 @@ data:
       - "<timer_increase> таймер на {timer_seconds:seconds} секунд[у|ы]"
     example: "увеличь таймер на 15 секунд"
     response: "default"
+
+  - sentences:
+      - "увеличь таймер на {timer_seconds:seconds} секунд[у|ы]"
+      - "добавь {timer_seconds:seconds} секунд[у|ы] таймеру"
+    example: "увеличь таймер на 15 секунд"
+    response: "default"
+    speech_to_phrase: true

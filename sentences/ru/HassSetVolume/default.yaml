@@ -11,3 +11,10 @@ data:
       - "[<set>] уровень звука [на ]{volume:volume_level}[[ ]%| процентов]"
     example: "Установи громкость 90"
     response: "default"
+
+  - sentences:
+      - "установи громкость на {volume:volume_level} процентов"
+      - "громкость на {volume:volume_level}"
+    example: "установи громкость на 50 процентов"
+    response: "default"
+    speech_to_phrase: true

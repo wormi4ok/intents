@@ -11,3 +11,10 @@ data:
       - "предыдущ(ий|ая) (трек|песня)"
     example: "Предыдущий трек"
     response: "default"
+
+  - sentences:
+      - "предыдущая песня"
+      - "предыдущий трек"
+    example: "предыдущая песня"
+    response: "default"
+    speech_to_phrase: true
